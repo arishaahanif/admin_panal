@@ -33,7 +33,7 @@ const AppTopbar = forwardRef<AppTopbarRef>((props, ref) => {
                 <i className="pi pi-ellipsis-v" />
             </button>
 
-            <div ref={topbarmenuRef} className={classNames('layout-topbar-menu', { 'layout-topbar-menu-mobile-active': layoutState.profileSidebarVisible })}>
+            {/* <div ref={topbarmenuRef} className={classNames('layout-topbar-menu', { 'layout-topbar-menu-mobile-active': layoutState.profileSidebarVisible })}>
                 <button type="button" className="p-link layout-topbar-button">
                     <i className="pi pi-calendar"></i>
                     <span>Calendar</span>
@@ -48,7 +48,7 @@ const AppTopbar = forwardRef<AppTopbarRef>((props, ref) => {
                         <span>Settings</span>
                     </button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     );
 });
